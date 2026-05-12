@@ -580,10 +580,11 @@ table { border-collapse: collapse; width: 100%; }
     <div class="filters-bar">
       <select class="filter-select" id="filter-strat">
         <option value="">Toutes stratégies</option>
-        <option>London Reversal M5</option>
-        <option>Reversal M1</option>
-        <option>Imbalance m3</option>
-        <option>Imbalance m3</option>
+        <option>Continuation</option>
+            <option>Imbalance m3</option>
+        <option>Continuation</option>
+            <option>Imbalance m3</option>
+            <option>Continuation</option>
             <option>Imbalance m3</option>
             <option>Live Corentin trading</option>
       </select>
@@ -630,8 +631,7 @@ table { border-collapse: collapse; width: 100%; }
           <label class="form-label" for="f-strategie">Stratégie</label>
           <select class="form-input" id="f-strategie" required>
             <option value="">Choisir...</option>
-            <option>London Reversal M5</option>
-            <option>Reversal M1</option>
+            <option>Continuation</option>
             <option>Imbalance m3</option>
             <option>Live Corentin trading</option>
           </select>
@@ -853,7 +853,7 @@ function renderRecentTable(trades) {
 }
 
 // ===== STRATEGIES =====
-const STRATEGIES = ['London Reversal M5', 'Reversal M1', 'Imbalance m3', 'Live Corentin trading'];
+const STRATEGIES = ['Continuation', 'Imbalance m3', 'Live Corentin trading'];
 const STRAT_COLORS = ['var(--color-primary)', 'var(--color-purple)', 'var(--color-orange)'];
 
 
